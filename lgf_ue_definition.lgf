@@ -1,0 +1,1166 @@
+ data ='M:\PhD Survey Methodology\Paper 1\stata\datasets\bhps_data3.csv' delim = comma quote = single;
+
+model:'3 Clus cr'  cluster 3 /
+  maxthreads=4  toler=1e-08  tolem=0.01  tolran=1e-05  bayes=1  bayess2=1  bayeslat=1
+  bayespoi=1
+  iterem=250  iternr=50  itersv=50
+  iterboot=500
+  setsboot=0
+  nseed=1324476  nseedboot=215679
+  nrand=0
+  usemiss=All
+  sewald=yes  dummy=no
+ outsect=0x00001c97
+ betaopts="wm"
+;
+casewgt weight;
+indicator w1 w2 w3 w4 w5 w6 w7 w8 w9 w10 w11 w12 w13 w14 w15 w16 w17
+ w18 w19 w20 w21 w22 w23 w24 w25 w26;
+covariate loyal;
+attr w1 nominal  ;
+attr w2 nominal  ;
+attr w3 nominal  ;
+attr w4 nominal  ;
+attr w5 nominal  ;
+attr w6 nominal  ;
+attr w7 nominal  ;
+attr w8 nominal  ;
+attr w9 nominal  ;
+attr w10 nominal  ;
+attr w11 nominal  ;
+attr w12 nominal  ;
+attr w13 nominal  ;
+attr w14 nominal  ;
+attr w15 nominal  ;
+attr w16 nominal  ;
+attr w17 nominal  ;
+attr w18 nominal  ;
+attr w19 nominal  ;
+attr w20 nominal  ;
+attr w21 nominal  ;
+attr w22 nominal  ;
+attr w23 nominal  ;
+attr w24 nominal  ;
+attr w25 nominal  ;
+attr w26 nominal  ;
+attr loyal perfect  ;
+know  2  * 3
+ 0 : 0 1 1 :
+ 1 : 1 0 0 :
+ ;
+
+end;
+model:'4 Clus cr'  cluster 4 /
+  maxthreads=4  toler=1e-08  tolem=0.01  tolran=1e-05  bayes=1  bayess2=1  bayeslat=1
+  bayespoi=1
+  iterem=250  iternr=50  itersv=50
+  iterboot=500
+  setsboot=0
+  nseed=1324476  nseedboot=215679
+  nrand=0
+  usemiss=All
+  sewald=yes  dummy=no
+ outsect=0x00001c97
+ betaopts="wm"
+;
+casewgt weight;
+indicator w1 w2 w3 w4 w5 w6 w7 w8 w9 w10 w11 w12 w13 w14 w15 w16 w17
+ w18 w19 w20 w21 w22 w23 w24 w25 w26;
+covariate loyal;
+attr w1 nominal  ;
+attr w2 nominal  ;
+attr w3 nominal  ;
+attr w4 nominal  ;
+attr w5 nominal  ;
+attr w6 nominal  ;
+attr w7 nominal  ;
+attr w8 nominal  ;
+attr w9 nominal  ;
+attr w10 nominal  ;
+attr w11 nominal  ;
+attr w12 nominal  ;
+attr w13 nominal  ;
+attr w14 nominal  ;
+attr w15 nominal  ;
+attr w16 nominal  ;
+attr w17 nominal  ;
+attr w18 nominal  ;
+attr w19 nominal  ;
+attr w20 nominal  ;
+attr w21 nominal  ;
+attr w22 nominal  ;
+attr w23 nominal  ;
+attr w24 nominal  ;
+attr w25 nominal  ;
+attr w26 nominal  ;
+attr loyal perfect  ;
+know  2  * 4
+ 0 : 0 1 1 1 :
+ 1 : 1 0 0 0 :
+ ;
+
+end;
+model:'5 Clus cr'  cluster 5 /
+  maxthreads=4  toler=1e-08  tolem=0.01  tolran=1e-05  bayes=1  bayess2=1  bayeslat=1
+  bayespoi=1
+  iterem=250  iternr=50  itersv=50
+  iterboot=500
+  setsboot=0
+  nseed=1324476  nseedboot=215679
+  nrand=0
+  usemiss=All
+  sewald=yes  dummy=no
+ outsect=0x00001c97
+ betaopts="wm"
+;
+casewgt weight;
+indicator w1 w2 w3 w4 w5 w6 w7 w8 w9 w10 w11 w12 w13 w14 w15 w16 w17
+ w18 w19 w20 w21 w22 w23 w24 w25 w26;
+covariate loyal;
+attr w1 nominal  ;
+attr w2 nominal  ;
+attr w3 nominal  ;
+attr w4 nominal  ;
+attr w5 nominal  ;
+attr w6 nominal  ;
+attr w7 nominal  ;
+attr w8 nominal  ;
+attr w9 nominal  ;
+attr w10 nominal  ;
+attr w11 nominal  ;
+attr w12 nominal  ;
+attr w13 nominal  ;
+attr w14 nominal  ;
+attr w15 nominal  ;
+attr w16 nominal  ;
+attr w17 nominal  ;
+attr w18 nominal  ;
+attr w19 nominal  ;
+attr w20 nominal  ;
+attr w21 nominal  ;
+attr w22 nominal  ;
+attr w23 nominal  ;
+attr w24 nominal  ;
+attr w25 nominal  ;
+attr w26 nominal  ;
+attr loyal perfect  ;
+know  2  * 5
+ 0 : 0 1 1 1 1 :
+ 1 : 1 0 0 0 0 :
+ ;
+
+end;
+model:'6 Clus cr'  cluster 6 /
+  maxthreads=4  toler=1e-08  tolem=0.01  tolran=1e-05  bayes=1  bayess2=1  bayeslat=1
+  bayespoi=1
+  iterem=250  iternr=50  itersv=50
+  iterboot=500
+  setsboot=0
+  nseed=1324476  nseedboot=215679
+  nrand=0
+  usemiss=All
+  sewald=yes  dummy=no
+ outsect=0x00001c97
+ betaopts="wm"
+;
+casewgt weight;
+indicator w1 w2 w3 w4 w5 w6 w7 w8 w9 w10 w11 w12 w13 w14 w15 w16 w17
+ w18 w19 w20 w21 w22 w23 w24 w25 w26;
+covariate loyal;
+attr w1 nominal  ;
+attr w2 nominal  ;
+attr w3 nominal  ;
+attr w4 nominal  ;
+attr w5 nominal  ;
+attr w6 nominal  ;
+attr w7 nominal  ;
+attr w8 nominal  ;
+attr w9 nominal  ;
+attr w10 nominal  ;
+attr w11 nominal  ;
+attr w12 nominal  ;
+attr w13 nominal  ;
+attr w14 nominal  ;
+attr w15 nominal  ;
+attr w16 nominal  ;
+attr w17 nominal  ;
+attr w18 nominal  ;
+attr w19 nominal  ;
+attr w20 nominal  ;
+attr w21 nominal  ;
+attr w22 nominal  ;
+attr w23 nominal  ;
+attr w24 nominal  ;
+attr w25 nominal  ;
+attr w26 nominal  ;
+attr loyal perfect  ;
+know  2  * 6
+ 0 : 0 1 1 1 1 1 :
+ 1 : 1 0 0 0 0 0 :
+ ;
+
+end;
+model:'7 Clus cr'  cluster 7 /
+  maxthreads=4  toler=1e-08  tolem=0.01  tolran=1e-05  bayes=1  bayess2=1  bayeslat=1
+  bayespoi=1
+  iterem=250  iternr=50  itersv=50
+  iterboot=500
+  setsboot=0
+  nseed=1324476  nseedboot=215679
+  nrand=0
+  usemiss=All
+  sewald=yes  dummy=no
+ outsect=0x00001c97
+ betaopts="wm"
+;
+casewgt weight;
+indicator w1 w2 w3 w4 w5 w6 w7 w8 w9 w10 w11 w12 w13 w14 w15 w16 w17
+ w18 w19 w20 w21 w22 w23 w24 w25 w26;
+covariate loyal;
+attr w1 nominal  ;
+attr w2 nominal  ;
+attr w3 nominal  ;
+attr w4 nominal  ;
+attr w5 nominal  ;
+attr w6 nominal  ;
+attr w7 nominal  ;
+attr w8 nominal  ;
+attr w9 nominal  ;
+attr w10 nominal  ;
+attr w11 nominal  ;
+attr w12 nominal  ;
+attr w13 nominal  ;
+attr w14 nominal  ;
+attr w15 nominal  ;
+attr w16 nominal  ;
+attr w17 nominal  ;
+attr w18 nominal  ;
+attr w19 nominal  ;
+attr w20 nominal  ;
+attr w21 nominal  ;
+attr w22 nominal  ;
+attr w23 nominal  ;
+attr w24 nominal  ;
+attr w25 nominal  ;
+attr w26 nominal  ;
+attr loyal perfect  ;
+know  2  * 7
+ 0 : 0 1 1 1 1 1 1 :
+ 1 : 1 0 0 0 0 0 0 :
+ ;
+
+end;
+model:'8 Clus cr'  cluster 8 /
+  maxthreads=4  toler=1e-08  tolem=0.01  tolran=1e-05  bayes=1  bayess2=1  bayeslat=1
+  bayespoi=1
+  iterem=250  iternr=50  itersv=50
+  iterboot=500
+  setsboot=0
+  nseed=1324476  nseedboot=215679
+  nrand=0
+  usemiss=All
+  sewald=yes  dummy=no
+ outsect=0x00001c97
+ betaopts="wm"
+;
+casewgt weight;
+indicator w1 w2 w3 w4 w5 w6 w7 w8 w9 w10 w11 w12 w13 w14 w15 w16 w17
+ w18 w19 w20 w21 w22 w23 w24 w25 w26;
+covariate loyal;
+attr w1 nominal  ;
+attr w2 nominal  ;
+attr w3 nominal  ;
+attr w4 nominal  ;
+attr w5 nominal  ;
+attr w6 nominal  ;
+attr w7 nominal  ;
+attr w8 nominal  ;
+attr w9 nominal  ;
+attr w10 nominal  ;
+attr w11 nominal  ;
+attr w12 nominal  ;
+attr w13 nominal  ;
+attr w14 nominal  ;
+attr w15 nominal  ;
+attr w16 nominal  ;
+attr w17 nominal  ;
+attr w18 nominal  ;
+attr w19 nominal  ;
+attr w20 nominal  ;
+attr w21 nominal  ;
+attr w22 nominal  ;
+attr w23 nominal  ;
+attr w24 nominal  ;
+attr w25 nominal  ;
+attr w26 nominal  ;
+attr loyal perfect  ;
+know  2  * 8
+ 0 : 0 1 1 1 1 1 1 1 :
+ 1 : 1 0 0 0 0 0 0 0 :
+ ;
+
+end;
+model:'9 Clus cr'  cluster 9 /
+  maxthreads=4  toler=1e-08  tolem=0.01  tolran=1e-05  bayes=1  bayess2=1  bayeslat=1
+  bayespoi=1
+  iterem=250  iternr=50  itersv=50
+  iterboot=500
+  setsboot=0
+  nseed=1324476  nseedboot=215679
+  nrand=0
+  usemiss=All
+  sewald=yes  dummy=no
+ outsect=0x00001c97
+ betaopts="wm"
+;
+casewgt weight;
+indicator w1 w2 w3 w4 w5 w6 w7 w8 w9 w10 w11 w12 w13 w14 w15 w16 w17
+ w18 w19 w20 w21 w22 w23 w24 w25 w26;
+covariate loyal;
+attr w1 nominal  ;
+attr w2 nominal  ;
+attr w3 nominal  ;
+attr w4 nominal  ;
+attr w5 nominal  ;
+attr w6 nominal  ;
+attr w7 nominal  ;
+attr w8 nominal  ;
+attr w9 nominal  ;
+attr w10 nominal  ;
+attr w11 nominal  ;
+attr w12 nominal  ;
+attr w13 nominal  ;
+attr w14 nominal  ;
+attr w15 nominal  ;
+attr w16 nominal  ;
+attr w17 nominal  ;
+attr w18 nominal  ;
+attr w19 nominal  ;
+attr w20 nominal  ;
+attr w21 nominal  ;
+attr w22 nominal  ;
+attr w23 nominal  ;
+attr w24 nominal  ;
+attr w25 nominal  ;
+attr w26 nominal  ;
+attr loyal perfect  ;
+know  2  * 9
+ 0 : 0 1 1 1 1 1 1 1 1 :
+ 1 : 1 0 0 0 0 0 0 0 0 :
+ ;
+
+end;
+model:'10 Clus cr'  cluster 10 /
+  maxthreads=4  toler=1e-08  tolem=0.01  tolran=1e-05  bayes=1  bayess2=1  bayeslat=1
+  bayespoi=1
+  iterem=250  iternr=50  itersv=50
+  iterboot=500
+  setsboot=0
+  nseed=1324476  nseedboot=215679
+  nrand=0
+  usemiss=All
+  sewald=yes  dummy=no
+ outsect=0x00001c97
+ betaopts="wm"
+;
+casewgt weight;
+indicator w1 w2 w3 w4 w5 w6 w7 w8 w9 w10 w11 w12 w13 w14 w15 w16 w17
+ w18 w19 w20 w21 w22 w23 w24 w25 w26;
+covariate loyal;
+attr w1 nominal  ;
+attr w2 nominal  ;
+attr w3 nominal  ;
+attr w4 nominal  ;
+attr w5 nominal  ;
+attr w6 nominal  ;
+attr w7 nominal  ;
+attr w8 nominal  ;
+attr w9 nominal  ;
+attr w10 nominal  ;
+attr w11 nominal  ;
+attr w12 nominal  ;
+attr w13 nominal  ;
+attr w14 nominal  ;
+attr w15 nominal  ;
+attr w16 nominal  ;
+attr w17 nominal  ;
+attr w18 nominal  ;
+attr w19 nominal  ;
+attr w20 nominal  ;
+attr w21 nominal  ;
+attr w22 nominal  ;
+attr w23 nominal  ;
+attr w24 nominal  ;
+attr w25 nominal  ;
+attr w26 nominal  ;
+attr loyal perfect  ;
+know  2  * 10
+ 0 : 0 1 1 1 1 1 1 1 1 1 :
+ 1 : 1 0 0 0 0 0 0 0 0 0 :
+ ;
+
+end;
+model:'3 Clus crBoot'  cluster 3 /
+  maxthreads=4  toler=1e-08  tolem=0.01  tolran=1e-05  bayes=1  bayess2=1  bayeslat=1
+  bayespoi=1
+  iterem=250  iternr=50  itersv=50
+  iterboot=500
+  setsboot=0
+ allchi2
+  nseed=1324476  nseedboot=215679
+  nrand=0
+  usemiss=All
+  sewald=yes  dummy=no
+ outsect=0x00001c97
+ betaopts="wm"
+;
+casewgt weight;
+indicator w1 w2 w3 w4 w5 w6 w7 w8 w9 w10 w11 w12 w13 w14 w15 w16 w17
+ w18 w19 w20 w21 w22 w23 w24 w25 w26;
+covariate loyal;
+attr w1 nominal  ;
+attr w2 nominal  ;
+attr w3 nominal  ;
+attr w4 nominal  ;
+attr w5 nominal  ;
+attr w6 nominal  ;
+attr w7 nominal  ;
+attr w8 nominal  ;
+attr w9 nominal  ;
+attr w10 nominal  ;
+attr w11 nominal  ;
+attr w12 nominal  ;
+attr w13 nominal  ;
+attr w14 nominal  ;
+attr w15 nominal  ;
+attr w16 nominal  ;
+attr w17 nominal  ;
+attr w18 nominal  ;
+attr w19 nominal  ;
+attr w20 nominal  ;
+attr w21 nominal  ;
+attr w22 nominal  ;
+attr w23 nominal  ;
+attr w24 nominal  ;
+attr w25 nominal  ;
+attr w26 nominal  ;
+attr loyal perfect  ;
+know  2  * 3
+ 0 : 0 1 1 :
+ 1 : 1 0 0 :
+ ;
+
+end;
+model:'4 Clus crBoot'  cluster 4 /
+  maxthreads=4  toler=1e-08  tolem=0.01  tolran=1e-05  bayes=1  bayess2=1  bayeslat=1
+  bayespoi=1
+  iterem=250  iternr=50  itersv=50
+  iterboot=500
+  setsboot=0
+  nseed=1324476  nseedboot=215679
+  nrand=0
+  usemiss=All
+  sewald=yes  dummy=no
+  doboot
+ outsect=0x00001c97
+ betaopts="wm"
+;
+casewgt weight;
+indicator w1 w2 w3 w4 w5 w6 w7 w8 w9 w10 w11 w12 w13 w14 w15 w16 w17
+ w18 w19 w20 w21 w22 w23 w24 w25 w26;
+covariate loyal;
+attr w1 nominal  ;
+attr w2 nominal  ;
+attr w3 nominal  ;
+attr w4 nominal  ;
+attr w5 nominal  ;
+attr w6 nominal  ;
+attr w7 nominal  ;
+attr w8 nominal  ;
+attr w9 nominal  ;
+attr w10 nominal  ;
+attr w11 nominal  ;
+attr w12 nominal  ;
+attr w13 nominal  ;
+attr w14 nominal  ;
+attr w15 nominal  ;
+attr w16 nominal  ;
+attr w17 nominal  ;
+attr w18 nominal  ;
+attr w19 nominal  ;
+attr w20 nominal  ;
+attr w21 nominal  ;
+attr w22 nominal  ;
+attr w23 nominal  ;
+attr w24 nominal  ;
+attr w25 nominal  ;
+attr w26 nominal  ;
+attr loyal perfect  ;
+know  2  * 4
+ 0 : 0 1 1 1 :
+ 1 : 1 0 0 0 :
+ ;
+
+end;
+model:'4 Clus crBoot'  cluster 4 /
+  maxthreads=4  toler=1e-08  tolem=0.01  tolran=1e-05  bayes=1  bayess2=1  bayeslat=1
+  bayespoi=1
+  iterem=250  iternr=50  itersv=50
+  iterboot=500
+  setsboot=0
+ allchi2
+  nseed=1324476  nseedboot=215679
+  nrand=0
+  usemiss=All
+  sewald=yes  dummy=no
+ outsect=0x00001c97
+ betaopts="wm"
+;
+casewgt weight;
+indicator w1 w2 w3 w4 w5 w6 w7 w8 w9 w10 w11 w12 w13 w14 w15 w16 w17
+ w18 w19 w20 w21 w22 w23 w24 w25 w26;
+covariate loyal;
+attr w1 nominal  ;
+attr w2 nominal  ;
+attr w3 nominal  ;
+attr w4 nominal  ;
+attr w5 nominal  ;
+attr w6 nominal  ;
+attr w7 nominal  ;
+attr w8 nominal  ;
+attr w9 nominal  ;
+attr w10 nominal  ;
+attr w11 nominal  ;
+attr w12 nominal  ;
+attr w13 nominal  ;
+attr w14 nominal  ;
+attr w15 nominal  ;
+attr w16 nominal  ;
+attr w17 nominal  ;
+attr w18 nominal  ;
+attr w19 nominal  ;
+attr w20 nominal  ;
+attr w21 nominal  ;
+attr w22 nominal  ;
+attr w23 nominal  ;
+attr w24 nominal  ;
+attr w25 nominal  ;
+attr w26 nominal  ;
+attr loyal perfect  ;
+know  2  * 4
+ 0 : 0 1 1 1 :
+ 1 : 1 0 0 0 :
+ ;
+
+end;
+model:'5 Clus crBoot'  cluster 5 /
+  maxthreads=4  toler=1e-08  tolem=0.01  tolran=1e-05  bayes=1  bayess2=1  bayeslat=1
+  bayespoi=1
+  iterem=250  iternr=50  itersv=50
+  iterboot=500
+  setsboot=0
+  nseed=1324476  nseedboot=215679
+  nrand=0
+  usemiss=All
+  sewald=yes  dummy=no
+  doboot
+ outsect=0x00001c97
+ betaopts="wm"
+;
+casewgt weight;
+indicator w1 w2 w3 w4 w5 w6 w7 w8 w9 w10 w11 w12 w13 w14 w15 w16 w17
+ w18 w19 w20 w21 w22 w23 w24 w25 w26;
+covariate loyal;
+attr w1 nominal  ;
+attr w2 nominal  ;
+attr w3 nominal  ;
+attr w4 nominal  ;
+attr w5 nominal  ;
+attr w6 nominal  ;
+attr w7 nominal  ;
+attr w8 nominal  ;
+attr w9 nominal  ;
+attr w10 nominal  ;
+attr w11 nominal  ;
+attr w12 nominal  ;
+attr w13 nominal  ;
+attr w14 nominal  ;
+attr w15 nominal  ;
+attr w16 nominal  ;
+attr w17 nominal  ;
+attr w18 nominal  ;
+attr w19 nominal  ;
+attr w20 nominal  ;
+attr w21 nominal  ;
+attr w22 nominal  ;
+attr w23 nominal  ;
+attr w24 nominal  ;
+attr w25 nominal  ;
+attr w26 nominal  ;
+attr loyal perfect  ;
+know  2  * 5
+ 0 : 0 1 1 1 1 :
+ 1 : 1 0 0 0 0 :
+ ;
+
+end;
+model:'5 Clus crBoot'  cluster 5 /
+  maxthreads=4  toler=1e-08  tolem=0.01  tolran=1e-05  bayes=1  bayess2=1  bayeslat=1
+  bayespoi=1
+  iterem=250  iternr=50  itersv=50
+  iterboot=500
+  setsboot=0
+ allchi2
+  nseed=1324476  nseedboot=215679
+  nrand=0
+  usemiss=All
+  sewald=yes  dummy=no
+ outsect=0x00001c97
+ betaopts="wm"
+;
+casewgt weight;
+indicator w1 w2 w3 w4 w5 w6 w7 w8 w9 w10 w11 w12 w13 w14 w15 w16 w17
+ w18 w19 w20 w21 w22 w23 w24 w25 w26;
+covariate loyal;
+attr w1 nominal  ;
+attr w2 nominal  ;
+attr w3 nominal  ;
+attr w4 nominal  ;
+attr w5 nominal  ;
+attr w6 nominal  ;
+attr w7 nominal  ;
+attr w8 nominal  ;
+attr w9 nominal  ;
+attr w10 nominal  ;
+attr w11 nominal  ;
+attr w12 nominal  ;
+attr w13 nominal  ;
+attr w14 nominal  ;
+attr w15 nominal  ;
+attr w16 nominal  ;
+attr w17 nominal  ;
+attr w18 nominal  ;
+attr w19 nominal  ;
+attr w20 nominal  ;
+attr w21 nominal  ;
+attr w22 nominal  ;
+attr w23 nominal  ;
+attr w24 nominal  ;
+attr w25 nominal  ;
+attr w26 nominal  ;
+attr loyal perfect  ;
+know  2  * 5
+ 0 : 0 1 1 1 1 :
+ 1 : 1 0 0 0 0 :
+ ;
+
+end;
+model:'6 Clus crBoot'  cluster 6 /
+  maxthreads=4  toler=1e-08  tolem=0.01  tolran=1e-05  bayes=1  bayess2=1  bayeslat=1
+  bayespoi=1
+  iterem=250  iternr=50  itersv=50
+  iterboot=500
+  setsboot=0
+  nseed=1324476  nseedboot=215679
+  nrand=0
+  usemiss=All
+  sewald=yes  dummy=no
+  doboot
+ outsect=0x00001c97
+ betaopts="wm"
+;
+casewgt weight;
+indicator w1 w2 w3 w4 w5 w6 w7 w8 w9 w10 w11 w12 w13 w14 w15 w16 w17
+ w18 w19 w20 w21 w22 w23 w24 w25 w26;
+covariate loyal;
+attr w1 nominal  ;
+attr w2 nominal  ;
+attr w3 nominal  ;
+attr w4 nominal  ;
+attr w5 nominal  ;
+attr w6 nominal  ;
+attr w7 nominal  ;
+attr w8 nominal  ;
+attr w9 nominal  ;
+attr w10 nominal  ;
+attr w11 nominal  ;
+attr w12 nominal  ;
+attr w13 nominal  ;
+attr w14 nominal  ;
+attr w15 nominal  ;
+attr w16 nominal  ;
+attr w17 nominal  ;
+attr w18 nominal  ;
+attr w19 nominal  ;
+attr w20 nominal  ;
+attr w21 nominal  ;
+attr w22 nominal  ;
+attr w23 nominal  ;
+attr w24 nominal  ;
+attr w25 nominal  ;
+attr w26 nominal  ;
+attr loyal perfect  ;
+know  2  * 6
+ 0 : 0 1 1 1 1 1 :
+ 1 : 1 0 0 0 0 0 :
+ ;
+
+end;
+model:'6 Clus crBoot'  cluster 6 /
+  maxthreads=4  toler=1e-08  tolem=0.01  tolran=1e-05  bayes=1  bayess2=1  bayeslat=1
+  bayespoi=1
+  iterem=250  iternr=50  itersv=50
+  iterboot=500
+  setsboot=0
+ allchi2
+  nseed=1324476  nseedboot=215679
+  nrand=0
+  usemiss=All
+  sewald=yes  dummy=no
+ outsect=0x00001c97
+ betaopts="wm"
+;
+casewgt weight;
+indicator w1 w2 w3 w4 w5 w6 w7 w8 w9 w10 w11 w12 w13 w14 w15 w16 w17
+ w18 w19 w20 w21 w22 w23 w24 w25 w26;
+covariate loyal;
+attr w1 nominal  ;
+attr w2 nominal  ;
+attr w3 nominal  ;
+attr w4 nominal  ;
+attr w5 nominal  ;
+attr w6 nominal  ;
+attr w7 nominal  ;
+attr w8 nominal  ;
+attr w9 nominal  ;
+attr w10 nominal  ;
+attr w11 nominal  ;
+attr w12 nominal  ;
+attr w13 nominal  ;
+attr w14 nominal  ;
+attr w15 nominal  ;
+attr w16 nominal  ;
+attr w17 nominal  ;
+attr w18 nominal  ;
+attr w19 nominal  ;
+attr w20 nominal  ;
+attr w21 nominal  ;
+attr w22 nominal  ;
+attr w23 nominal  ;
+attr w24 nominal  ;
+attr w25 nominal  ;
+attr w26 nominal  ;
+attr loyal perfect  ;
+know  2  * 6
+ 0 : 0 1 1 1 1 1 :
+ 1 : 1 0 0 0 0 0 :
+ ;
+
+end;
+model:'7 Clus crBoot'  cluster 7 /
+  maxthreads=4  toler=1e-08  tolem=0.01  tolran=1e-05  bayes=1  bayess2=1  bayeslat=1
+  bayespoi=1
+  iterem=250  iternr=50  itersv=50
+  iterboot=500
+  setsboot=0
+  nseed=1324476  nseedboot=215679
+  nrand=0
+  usemiss=All
+  sewald=yes  dummy=no
+  doboot
+ outsect=0x00001c97
+ betaopts="wm"
+;
+casewgt weight;
+indicator w1 w2 w3 w4 w5 w6 w7 w8 w9 w10 w11 w12 w13 w14 w15 w16 w17
+ w18 w19 w20 w21 w22 w23 w24 w25 w26;
+covariate loyal;
+attr w1 nominal  ;
+attr w2 nominal  ;
+attr w3 nominal  ;
+attr w4 nominal  ;
+attr w5 nominal  ;
+attr w6 nominal  ;
+attr w7 nominal  ;
+attr w8 nominal  ;
+attr w9 nominal  ;
+attr w10 nominal  ;
+attr w11 nominal  ;
+attr w12 nominal  ;
+attr w13 nominal  ;
+attr w14 nominal  ;
+attr w15 nominal  ;
+attr w16 nominal  ;
+attr w17 nominal  ;
+attr w18 nominal  ;
+attr w19 nominal  ;
+attr w20 nominal  ;
+attr w21 nominal  ;
+attr w22 nominal  ;
+attr w23 nominal  ;
+attr w24 nominal  ;
+attr w25 nominal  ;
+attr w26 nominal  ;
+attr loyal perfect  ;
+know  2  * 7
+ 0 : 0 1 1 1 1 1 1 :
+ 1 : 1 0 0 0 0 0 0 :
+ ;
+
+end;
+model:'7 Clus crBoot'  cluster 7 /
+  maxthreads=4  toler=1e-08  tolem=0.01  tolran=1e-05  bayes=1  bayess2=1  bayeslat=1
+  bayespoi=1
+  iterem=250  iternr=50  itersv=50
+  iterboot=500
+  setsboot=0
+ allchi2
+  nseed=1324476  nseedboot=215679
+  nrand=0
+  usemiss=All
+  sewald=yes  dummy=no
+ outsect=0x00001c97
+ betaopts="wm"
+;
+casewgt weight;
+indicator w1 w2 w3 w4 w5 w6 w7 w8 w9 w10 w11 w12 w13 w14 w15 w16 w17
+ w18 w19 w20 w21 w22 w23 w24 w25 w26;
+covariate loyal;
+attr w1 nominal  ;
+attr w2 nominal  ;
+attr w3 nominal  ;
+attr w4 nominal  ;
+attr w5 nominal  ;
+attr w6 nominal  ;
+attr w7 nominal  ;
+attr w8 nominal  ;
+attr w9 nominal  ;
+attr w10 nominal  ;
+attr w11 nominal  ;
+attr w12 nominal  ;
+attr w13 nominal  ;
+attr w14 nominal  ;
+attr w15 nominal  ;
+attr w16 nominal  ;
+attr w17 nominal  ;
+attr w18 nominal  ;
+attr w19 nominal  ;
+attr w20 nominal  ;
+attr w21 nominal  ;
+attr w22 nominal  ;
+attr w23 nominal  ;
+attr w24 nominal  ;
+attr w25 nominal  ;
+attr w26 nominal  ;
+attr loyal perfect  ;
+know  2  * 7
+ 0 : 0 1 1 1 1 1 1 :
+ 1 : 1 0 0 0 0 0 0 :
+ ;
+
+end;
+model:'8 Clus crBoot'  cluster 8 /
+  maxthreads=4  toler=1e-08  tolem=0.01  tolran=1e-05  bayes=1  bayess2=1  bayeslat=1
+  bayespoi=1
+  iterem=250  iternr=50  itersv=50
+  iterboot=500
+  setsboot=0
+  nseed=1324476  nseedboot=215679
+  nrand=0
+  usemiss=All
+  sewald=yes  dummy=no
+  doboot
+ outsect=0x00001c97
+ betaopts="wm"
+;
+casewgt weight;
+indicator w1 w2 w3 w4 w5 w6 w7 w8 w9 w10 w11 w12 w13 w14 w15 w16 w17
+ w18 w19 w20 w21 w22 w23 w24 w25 w26;
+covariate loyal;
+attr w1 nominal  ;
+attr w2 nominal  ;
+attr w3 nominal  ;
+attr w4 nominal  ;
+attr w5 nominal  ;
+attr w6 nominal  ;
+attr w7 nominal  ;
+attr w8 nominal  ;
+attr w9 nominal  ;
+attr w10 nominal  ;
+attr w11 nominal  ;
+attr w12 nominal  ;
+attr w13 nominal  ;
+attr w14 nominal  ;
+attr w15 nominal  ;
+attr w16 nominal  ;
+attr w17 nominal  ;
+attr w18 nominal  ;
+attr w19 nominal  ;
+attr w20 nominal  ;
+attr w21 nominal  ;
+attr w22 nominal  ;
+attr w23 nominal  ;
+attr w24 nominal  ;
+attr w25 nominal  ;
+attr w26 nominal  ;
+attr loyal perfect  ;
+know  2  * 8
+ 0 : 0 1 1 1 1 1 1 1 :
+ 1 : 1 0 0 0 0 0 0 0 :
+ ;
+
+end;
+model:'8 Clus crBoot'  cluster 8 /
+  maxthreads=4  toler=1e-08  tolem=0.01  tolran=1e-05  bayes=1  bayess2=1  bayeslat=1
+  bayespoi=1
+  iterem=250  iternr=50  itersv=50
+  iterboot=500
+  setsboot=0
+ allchi2
+  nseed=1324476  nseedboot=215679
+  nrand=0
+  usemiss=All
+  sewald=yes  dummy=no
+ outsect=0x00001c97
+ betaopts="wm"
+;
+casewgt weight;
+indicator w1 w2 w3 w4 w5 w6 w7 w8 w9 w10 w11 w12 w13 w14 w15 w16 w17
+ w18 w19 w20 w21 w22 w23 w24 w25 w26;
+covariate loyal;
+attr w1 nominal  ;
+attr w2 nominal  ;
+attr w3 nominal  ;
+attr w4 nominal  ;
+attr w5 nominal  ;
+attr w6 nominal  ;
+attr w7 nominal  ;
+attr w8 nominal  ;
+attr w9 nominal  ;
+attr w10 nominal  ;
+attr w11 nominal  ;
+attr w12 nominal  ;
+attr w13 nominal  ;
+attr w14 nominal  ;
+attr w15 nominal  ;
+attr w16 nominal  ;
+attr w17 nominal  ;
+attr w18 nominal  ;
+attr w19 nominal  ;
+attr w20 nominal  ;
+attr w21 nominal  ;
+attr w22 nominal  ;
+attr w23 nominal  ;
+attr w24 nominal  ;
+attr w25 nominal  ;
+attr w26 nominal  ;
+attr loyal perfect  ;
+know  2  * 8
+ 0 : 0 1 1 1 1 1 1 1 :
+ 1 : 1 0 0 0 0 0 0 0 :
+ ;
+
+end;
+model:'9 Clus crBoot'  cluster 9 /
+  maxthreads=4  toler=1e-08  tolem=0.01  tolran=1e-05  bayes=1  bayess2=1  bayeslat=1
+  bayespoi=1
+  iterem=250  iternr=50  itersv=50
+  iterboot=500
+  setsboot=0
+  nseed=1324476  nseedboot=215679
+  nrand=0
+  usemiss=All
+  sewald=yes  dummy=no
+  doboot
+ outsect=0x00001c97
+ betaopts="wm"
+;
+casewgt weight;
+indicator w1 w2 w3 w4 w5 w6 w7 w8 w9 w10 w11 w12 w13 w14 w15 w16 w17
+ w18 w19 w20 w21 w22 w23 w24 w25 w26;
+covariate loyal;
+attr w1 nominal  ;
+attr w2 nominal  ;
+attr w3 nominal  ;
+attr w4 nominal  ;
+attr w5 nominal  ;
+attr w6 nominal  ;
+attr w7 nominal  ;
+attr w8 nominal  ;
+attr w9 nominal  ;
+attr w10 nominal  ;
+attr w11 nominal  ;
+attr w12 nominal  ;
+attr w13 nominal  ;
+attr w14 nominal  ;
+attr w15 nominal  ;
+attr w16 nominal  ;
+attr w17 nominal  ;
+attr w18 nominal  ;
+attr w19 nominal  ;
+attr w20 nominal  ;
+attr w21 nominal  ;
+attr w22 nominal  ;
+attr w23 nominal  ;
+attr w24 nominal  ;
+attr w25 nominal  ;
+attr w26 nominal  ;
+attr loyal perfect  ;
+know  2  * 9
+ 0 : 0 1 1 1 1 1 1 1 1 :
+ 1 : 1 0 0 0 0 0 0 0 0 :
+ ;
+
+end;
+model:'9 Clus crBoot'  cluster 9 /
+  maxthreads=4  toler=1e-08  tolem=0.01  tolran=1e-05  bayes=1  bayess2=1  bayeslat=1
+  bayespoi=1
+  iterem=250  iternr=50  itersv=50
+  iterboot=500
+  setsboot=0
+ allchi2
+  nseed=1324476  nseedboot=215679
+  nrand=0
+  usemiss=All
+  sewald=yes  dummy=no
+ outsect=0x00001c97
+ betaopts="wm"
+;
+casewgt weight;
+indicator w1 w2 w3 w4 w5 w6 w7 w8 w9 w10 w11 w12 w13 w14 w15 w16 w17
+ w18 w19 w20 w21 w22 w23 w24 w25 w26;
+covariate loyal;
+attr w1 nominal  ;
+attr w2 nominal  ;
+attr w3 nominal  ;
+attr w4 nominal  ;
+attr w5 nominal  ;
+attr w6 nominal  ;
+attr w7 nominal  ;
+attr w8 nominal  ;
+attr w9 nominal  ;
+attr w10 nominal  ;
+attr w11 nominal  ;
+attr w12 nominal  ;
+attr w13 nominal  ;
+attr w14 nominal  ;
+attr w15 nominal  ;
+attr w16 nominal  ;
+attr w17 nominal  ;
+attr w18 nominal  ;
+attr w19 nominal  ;
+attr w20 nominal  ;
+attr w21 nominal  ;
+attr w22 nominal  ;
+attr w23 nominal  ;
+attr w24 nominal  ;
+attr w25 nominal  ;
+attr w26 nominal  ;
+attr loyal perfect  ;
+know  2  * 9
+ 0 : 0 1 1 1 1 1 1 1 1 :
+ 1 : 1 0 0 0 0 0 0 0 0 :
+ ;
+
+end;
+model:'10 Clus crBoot'  cluster 10 /
+  maxthreads=4  toler=1e-08  tolem=0.01  tolran=1e-05  bayes=1  bayess2=1  bayeslat=1
+  bayespoi=1
+  iterem=250  iternr=50  itersv=50
+  iterboot=500
+  setsboot=0
+  nseed=1324476  nseedboot=215679
+  nrand=0
+  usemiss=All
+  sewald=yes  dummy=no
+  doboot
+ outsect=0x00001c97
+ betaopts="wm"
+;
+casewgt weight;
+indicator w1 w2 w3 w4 w5 w6 w7 w8 w9 w10 w11 w12 w13 w14 w15 w16 w17
+ w18 w19 w20 w21 w22 w23 w24 w25 w26;
+covariate loyal;
+attr w1 nominal  ;
+attr w2 nominal  ;
+attr w3 nominal  ;
+attr w4 nominal  ;
+attr w5 nominal  ;
+attr w6 nominal  ;
+attr w7 nominal  ;
+attr w8 nominal  ;
+attr w9 nominal  ;
+attr w10 nominal  ;
+attr w11 nominal  ;
+attr w12 nominal  ;
+attr w13 nominal  ;
+attr w14 nominal  ;
+attr w15 nominal  ;
+attr w16 nominal  ;
+attr w17 nominal  ;
+attr w18 nominal  ;
+attr w19 nominal  ;
+attr w20 nominal  ;
+attr w21 nominal  ;
+attr w22 nominal  ;
+attr w23 nominal  ;
+attr w24 nominal  ;
+attr w25 nominal  ;
+attr w26 nominal  ;
+attr loyal perfect  ;
+know  2  * 10
+ 0 : 0 1 1 1 1 1 1 1 1 1 :
+ 1 : 1 0 0 0 0 0 0 0 0 0 :
+ ;
+
+end;
+model  cluster 10 /
+  maxthreads=4  toler=1e-08  tolem=0.01  tolran=1e-05  bayes=1  bayess2=1  bayeslat=1
+  bayespoi=1
+  iterem=250  iternr=50  itersv=50
+  iterboot=500
+  setsboot=0
+  nseed=0  nseedboot=215679
+  nrand=16
+  usemiss=All
+  sewald=yes  dummy=no
+ outsect=0x00001c97
+ betaopts="wm"
+;
+casewgt weight;
+indicator w1 w2 w3 w4 w5 w6 w7 w8 w9 w10 w11 w12 w13 w14 w15 w16 w17
+ w18 w19 w20 w21 w22 w23 w24 w25 w26;
+covariate loyal;
+attr w1 nominal  ;
+attr w2 nominal  ;
+attr w3 nominal  ;
+attr w4 nominal  ;
+attr w5 nominal  ;
+attr w6 nominal  ;
+attr w7 nominal  ;
+attr w8 nominal  ;
+attr w9 nominal  ;
+attr w10 nominal  ;
+attr w11 nominal  ;
+attr w12 nominal  ;
+attr w13 nominal  ;
+attr w14 nominal  ;
+attr w15 nominal  ;
+attr w16 nominal  ;
+attr w17 nominal  ;
+attr w18 nominal  ;
+attr w19 nominal  ;
+attr w20 nominal  ;
+attr w21 nominal  ;
+attr w22 nominal  ;
+attr w23 nominal  ;
+attr w24 nominal  ;
+attr w25 nominal  ;
+attr w26 nominal  ;
+attr loyal perfect  ;
+know  2  * 10
+ 0 : 0 1 1 1 1 1 1 1 1 1 :
+ 1 : 1 0 0 0 0 0 0 0 0 0 :
+ ;
+
+end;
